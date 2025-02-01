@@ -1,0 +1,39 @@
+{
+  "name": "@develobing/v-min-height-class",
+  "version": "1.0.0",
+  "description": "Vue Directive when a height of an element is less than some value",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    "import": {
+      "default": "./lib/index.js",
+      "types": "./lib/types/index.d.ts"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rimraf ./lib && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "directive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/develobing/v-min-height-class.git"
+  },
+  "author": "develobing",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.5.13",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3"
+  }
+}
