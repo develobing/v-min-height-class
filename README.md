@@ -1,2 +1,3 @@
 # v-min-height-class
-Vue Directive when a height of an element is less than some value
+
+A Vue directive that applies a class when an element's height is below a threshold.

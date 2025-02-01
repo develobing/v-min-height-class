@@ -1,7 +1,7 @@
 {
   "name": "@develobing/v-min-height-class",
-  "version": "1.0.0",
-  "description": "Vue Directive when a height of an element is less than some value",
+  "version": "1.0.1",
+  "description": "A Vue directive that applies a class when an element's height is below a threshold.",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/types/index.d.ts",
